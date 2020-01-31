@@ -1,0 +1,118 @@
+ros-turbulent-test-launch-ros (0.9.5-2bionic) bionic; urgency=high
+
+  * Fix remapping rules when using xml/yaml launch files (#111 <https://github.com/ros2/launch_ros/issues/111>)
+  * Maintain order of parameters regarding name and from (#99 <https://github.com/ros2/launch_ros/issues/99>)
+  * Fix push-ros-namespace in xml/yaml launch files (#100 <https://github.com/ros2/launch_ros/issues/100>)
+  * Contributors: Brian Marchi, Ivan Santiago Paunovic, Jacob Perron
+
+ -- William Woodall <william@osrfoundation.org>  Tue, 21 Jan 2020 08:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.9.4-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Tue, 19 Nov 2019 08:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.9.3-2bionic) bionic; urgency=high
+
+  * Install package.xml (#92 <https://github.com/ros2/launch_ros/issues/92>)
+  * Contributors: Gaël Écorchard
+
+ -- William Woodall <william@osrfoundation.org>  Wed, 13 Nov 2019 08:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.9.2-2bionic) bionic; urgency=high
+
+  * Fix launch_ros.actions.Node parsing function (#83 <https://github.com/ros2/launch_ros/issues/83>)
+  * Contributors: Michel Hidalgo
+
+ -- William Woodall <william@osrfoundation.org>  Wed, 23 Oct 2019 07:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.9.1-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Sat, 28 Sep 2019 07:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.9.0-2bionic) bionic; urgency=high
+
+  * Handle zero-width string parameters. (#72 <https://github.com/ros2/launch_ros/issues/72>)
+  * Add substitution for finding package share directory (#57 <https://github.com/ros2/launch_ros/issues/57>)
+  * Adapt to '--ros-args ... [--]'-based ROS args extraction (#52 <https://github.com/ros2/launch_ros/issues/52>)
+  * Use node namespace if no other was specified (#51 <https://github.com/ros2/launch_ros/issues/51>)
+  * [launch frontend] Rename some tag attributes (#47 <https://github.com/ros2/launch_ros/issues/47>)
+  * Fix PushRosNamespace action (#44 <https://github.com/ros2/launch_ros/issues/44>)
+  * Add PushRosNamespace action (#42 <https://github.com/ros2/launch_ros/issues/42>)
+  * Add frontend parsing methods for Node, ExecutableInPackage and FindPackage substitution (#23 <https://github.com/ros2/launch_ros/issues/23>)
+  * Restrict yaml loading in evaluate_parameters (#33 <https://github.com/ros2/launch_ros/issues/33>)
+  * Use wildcard syntax in generated parameter YAML files (#35 <https://github.com/ros2/launch_ros/issues/35>)
+  * Contributors: Jacob Perron, Michel Hidalgo, Scott K Logan, ivanpauno
+
+ -- William Woodall <william@osrfoundation.org>  Wed, 25 Sep 2019 07:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.8.4-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Thu, 30 May 2019 07:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.8.3-2bionic) bionic; urgency=high
+
+  * Added the ``FindPackage`` substitution. (#22 <https://github.com/ros2/launch_ros/issues/22>)
+  * Changed interpretation of Parameter values which are passed to ``Node()`` so that they get evaluated by yaml rules. (#31 <https://github.com/ros2/launch_ros/issues/31>)
+  * Contributors: Shane Loretz, ivanpauno
+
+ -- William Woodall <william@osrfoundation.org>  Wed, 29 May 2019 07:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.8.2-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Mon, 20 May 2019 07:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.8.1-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Wed, 08 May 2019 07:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.8.0-2bionic) bionic; urgency=high
+
+  * Added normalize_parameters and evaluate_paramters. (#192 <https://github.com/ros2/launch/issues/192>)
+  * Added normalize_remap_rule and types. (#173 <https://github.com/ros2/launch/issues/173>)
+  * Added support for required nodes. (#179 <https://github.com/ros2/launch/issues/179>)
+  * Contributors: Kyle Fazzari, Shane Loretz
+
+ -- William Woodall <william@osrfoundation.org>  Sun, 14 Apr 2019 07:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.7.3-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Thu, 13 Dec 2018 08:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.7.2-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Thu, 06 Dec 2018 08:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.7.1-2bionic) bionic; urgency=high
+
+  * Fixed setup.py versions (#155 <https://github.com/ros2/launch/issues/155>)
+  * Contributors: Steven! Ragnarök
+
+ -- William Woodall <william@osrfoundation.org>  Fri, 16 Nov 2018 08:00:00 -0000
+
+ros-turbulent-test-launch-ros (0.7.0-2bionic) bionic; urgency=high
+
+  * Fixed a bug to ensure that shutdown event is handled correctly (#154 <https://github.com/ros2/launch/issues/154>)
+    * There was a potential race condition in between when the shutdown event is emitted and the rest of the shutdown handling code.
+    * This introduces an additional await to ensure that the event is emitted before proceeding.
+  * Added support for passing parameters as a dictionary to a Node (#138 <https://github.com/ros2/launch/issues/138>)
+  * Made various fixes and added tests for remappings passed to Node actions (#137 <https://github.com/ros2/launch/issues/137>)
+  * Added ability to pass parameter files to Node actions (#135 <https://github.com/ros2/launch/issues/135>)
+  * Contributors: Michael Carroll, dhood
+
+ -- William Woodall <william@osrfoundation.org>  Fri, 16 Nov 2018 08:00:00 -0000
+
+
