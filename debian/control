@@ -1,0 +1,12 @@
+Source: ros-turbulent-test-launch-ros
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, python3-yaml, ros-turbulent-ament-copyright, ros-turbulent-ament-flake8, ros-turbulent-ament-pep257, ros-turbulent-demo-nodes-py, ros-turbulent-launch-ros, ros-turbulent-launch-xml, ros-turbulent-launch-yaml, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-test-launch-ros
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-turbulent-ros-workspace
+Description: Tests for ROS specific extensions to the launch tool.
