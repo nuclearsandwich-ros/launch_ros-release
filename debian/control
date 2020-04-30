@@ -1,0 +1,12 @@
+Source: ros-verystable-launch-testing-ros
+Section: misc
+Priority: optional
+Maintainer: Pete Baughman <pete.baughman@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-verystable-ament-copyright, ros-verystable-ament-flake8, ros-verystable-ament-pep257, ros-verystable-std-msgs, ros-verystable-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-launch-testing-ros
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-verystable-launch-ros, ros-verystable-launch-testing, ros-verystable-rclpy, ros-verystable-ros-workspace
+Description: A package providing utilities for writing ROS2 enabled launch tests.
