@@ -1,0 +1,12 @@
+Source: ros-verystable-test-launch-ros
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, python3-yaml, ros-verystable-ament-copyright, ros-verystable-ament-flake8, ros-verystable-ament-pep257, ros-verystable-demo-nodes-py, ros-verystable-launch-ros, ros-verystable-launch-xml, ros-verystable-launch-yaml, ros-verystable-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-test-launch-ros
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-verystable-ros-workspace
+Description: Tests for ROS specific extensions to the launch tool.
