@@ -1,0 +1,134 @@
+ros-verystable-ros2launch (0.9.5-2bionic) bionic; urgency=high
+
+  * Fix misleading deprecated warnings when using launch arguments (#106 <https://github.com/ros2/launch_ros/issues/106>)
+  * Use imperative mood in constructor docstrings. (#103 <https://github.com/ros2/launch_ros/issues/103>)
+  * Contributors: Ivan Santiago Paunovic, Steven! Ragnarök
+
+ -- William Woodall <william@osrfoundation.org>  Tue, 21 Jan 2020 05:00:00 -0000
+
+ros-verystable-ros2launch (0.9.4-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Tue, 19 Nov 2019 05:00:00 -0000
+
+ros-verystable-ros2launch (0.9.3-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Wed, 13 Nov 2019 05:00:00 -0000
+
+ros-verystable-ros2launch (0.9.2-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Wed, 23 Oct 2019 04:00:00 -0000
+
+ros-verystable-ros2launch (0.9.1-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Sat, 28 Sep 2019 04:00:00 -0000
+
+ros-verystable-ros2launch (0.9.0-2bionic) bionic; urgency=high
+
+  * install resource marker file for package (#78 <https://github.com/ros2/launch_ros/issues/78>)
+  * install package manifest (#71 <https://github.com/ros2/launch_ros/issues/71>)
+  * Support xml and yaml files in ros2launch (#40 <https://github.com/ros2/launch_ros/issues/40>)
+  * Contributors: Dirk Thomas, ivanpauno
+
+ -- William Woodall <william@osrfoundation.org>  Wed, 25 Sep 2019 04:00:00 -0000
+
+ros-verystable-ros2launch (0.8.4-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Thu, 30 May 2019 04:00:00 -0000
+
+ros-verystable-ros2launch (0.8.3-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Wed, 29 May 2019 04:00:00 -0000
+
+ros-verystable-ros2launch (0.8.2-2bionic) bionic; urgency=high
+
+  * fix calling of print_arguments_of_launch_description() (#27 <https://github.com/ros2/launch_ros/issues/27>)
+  * Launch autocomplete doesnt require dot (#24 <https://github.com/ros2/launch_ros/issues/24>)
+  * Contributors: Matt Hansen, William Woodall
+
+ -- William Woodall <william@osrfoundation.org>  Mon, 20 May 2019 04:00:00 -0000
+
+ros-verystable-ros2launch (0.8.1-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Wed, 08 May 2019 04:00:00 -0000
+
+ros-verystable-ros2launch (0.8.0-2bionic) bionic; urgency=high
+
+  * Added --show-all-subprocesses-output command line option. (#10 <https://github.com/ros2/launch/issues/10>)
+  * Make 'ros2 launch' work again. (#201 <https://github.com/ros2/launch/issues/201>)
+  * Added plumb rclpy.init context to get_default_launch_description. (#193 <https://github.com/ros2/launch/issues/193>)
+  * Refactored arg print functions (#172 <https://github.com/ros2/launch/issues/172>)
+  * Contributors: Chris Lalancette, Michel Hidalgo, Peter Baughman
+
+ -- William Woodall <william@osrfoundation.org>  Sun, 14 Apr 2019 04:00:00 -0000
+
+ros-verystable-ros2launch (0.7.3-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Thu, 13 Dec 2018 05:00:00 -0000
+
+ros-verystable-ros2launch (0.7.2-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Thu, 06 Dec 2018 05:00:00 -0000
+
+ros-verystable-ros2launch (0.7.1-2bionic) bionic; urgency=high
+
+  * Fixed setup.py versions (#155 <https://github.com/ros2/launch/issues/155>)
+  * Contributors: Steven! Ragnarök
+
+ -- William Woodall <william@osrfoundation.org>  Fri, 16 Nov 2018 05:00:00 -0000
+
+ros-verystable-ros2launch (0.7.0-2bionic) bionic; urgency=high
+
+  * Added ability to define and pass launch arguments to launch files (#123 <https://github.com/ros2/launch/issues/123>)
+    * See changelog in ``launch`` for details.
+    * Signed-off-by: William Woodall <mailto:william@osrfoundation.org>
+  * Contributors: William Woodall
+
+ -- William Woodall <william@osrfoundation.org>  Fri, 16 Nov 2018 05:00:00 -0000
+
+ros-verystable-ros2launch (0.6.0-2bionic) bionic; urgency=high
+
+  * add way to include other Python launch files (#122 <https://github.com/ros2/launch/issues/122>)
+    * Signed-off-by: William Woodall <mailto:william@osrfoundation.org>
+  * Contributors: William Woodall
+
+ -- William Woodall <william@osrfoundation.org>  Mon, 20 Aug 2018 04:00:00 -0000
+
+ros-verystable-ros2launch (0.5.2-2bionic) bionic; urgency=high
+
+
+
+ -- William Woodall <william@osrfoundation.org>  Tue, 17 Jul 2018 04:00:00 -0000
+
+ros-verystable-ros2launch (0.5.1-2bionic) bionic; urgency=high
+
+  * Improved error handling in the ``ros2 launch`` command line tool. (#93 <https://github.com/ros2/launch/issues/93>)
+  * Contributors: William Woodall
+
+ -- William Woodall <william@osrfoundation.org>  Wed, 27 Jun 2018 04:00:00 -0000
+
+ros-verystable-ros2launch (0.5.0-2bionic) bionic; urgency=high
+
+  * First commit of the ros2launch package and the ros2 launch CLI tool (#76 <https://github.com/ros2/launch/issues/76>)
+  * Contributors: William Woodall
+
+ -- William Woodall <william@osrfoundation.org>  Tue, 19 Jun 2018 04:00:00 -0000
+
+
