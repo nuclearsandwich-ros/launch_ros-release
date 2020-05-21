@@ -1,0 +1,12 @@
+Source: ros-testing-test-launch-ros
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, python3-yaml, ros-testing-ament-copyright, ros-testing-ament-flake8, ros-testing-ament-pep257, ros-testing-composition, ros-testing-demo-nodes-py, ros-testing-launch-ros, ros-testing-launch-xml, ros-testing-launch-yaml, ros-testing-lifecycle, ros-testing-osrf-pycommon, ros-testing-rclcpp-components, ros-testing-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-test-launch-ros
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-testing-ros-workspace
+Description: Tests for ROS specific extensions to the launch tool.
