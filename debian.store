@@ -1,1 +1,1 @@
-{"trim": "", "base": "1aeb171", "trimbase": "", "parent": "debian/foxy/launch_ros", "previous": "cc4d774"}
+{"base": "0c2d548", "parent": "debian/testing/launch_ros", "previous": "f71dbcb", "trim": "", "trimbase": ""}
